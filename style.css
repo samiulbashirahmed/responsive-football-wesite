@@ -1,0 +1,130 @@
+ /* font--------- */
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+ /* common styles and utilities--------- */
+ body{
+    font-family: 'Poppins', sans-serif;
+ }
+
+ /* top banner---------------------------- */
+ .top-banner{
+    display: flex;
+    background-color: #2D25A0;
+    width: 1440px;
+    height: 677px;
+    position: relative;
+    padding-left: 141px;
+    padding-top: 153px;
+    
+
+    
+}
+.banner-title {
+    width:  472px;
+    height: 272px;
+    color: #FFFFFF;
+    font-size: 50px;
+    line-height: 80px;
+    
+    
+}
+#live-link{
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #E02C6D;
+    width: 133px;
+    height: 30px;
+    border-radius: 20px;
+    padding:10px 24px 10px 24px ;
+    margin-top: 10px;
+    color: #ffffff;
+    
+
+}
+
+.banner-img{
+    width: 556px;
+    height: 438px;
+    
+}
+.banner-img img{
+    width: 100%;
+
+}
+/* style of player section and container........................ */
+.container{
+
+}
+.players-chart{
+    margin-left: 180px;
+    margin-right: 69px;
+    margin-top: 48px;
+
+
+}
+   
+.players{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  row-gap: 15px;
+  
+
+}
+.player{
+    width: 330px;
+    height: 456px;
+    overflow: hidden ;
+
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    background: #FFFFFF;
+    
+
+}
+.player img{
+    width: 315px;
+    height: 271px;
+}
+/* highlights section---------- */
+.highlights{
+    margin-left: 180px;
+    margin-right: 69px;
+    margin-top: 48px;
+    display: flex;
+    column-gap: 69px;
+    
+}
+.content{
+    width: 466px;
+    height: 309px;
+}
+.content-img img{
+    width: 567px;
+    height: 427px;
+
+}
+.link-button{
+    text-decoration: none;
+    border-radius: 20px;
+    padding:10px 24px 10px 24px ;
+    background-color: #E02C6D;
+    color: #ffffff;
+    width: 133px;
+    height: 30px;
+    margin-top: 10px;
+    display:block
+
+
+}
+/* style of footer -------------------------------- */
+    .footer-logo{
+        text-align: center;
+        margin-top: 20px;
+         }
+         .footer-logo img{
+             width: 483px;
+             height: 213;
+         }
+ 
+  
